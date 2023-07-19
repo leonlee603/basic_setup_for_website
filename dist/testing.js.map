@@ -1,0 +1,1 @@
+{"version":3,"file":"testing.js","sourceRoot":"","sources":["../assets/ts/testing.ts"],"names":[],"mappings":"AAAA,MAAM,UAAU,OAAO;IACnB,OAAO,CAAC,GAAG,CAAC,SAAS,CAAC,CAAC;AAC3B,CAAC","sourcesContent":["export function testing() {\n    console.log('testing');\n}"]}

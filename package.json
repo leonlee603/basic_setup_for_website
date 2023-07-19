@@ -1,0 +1,23 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-ts": "tsc ",
+    "watch-ts": "tsc --watch ",
+    "build-sass": "sass assets/styles:dist/styles",
+    "watch-scss": "sass --watch assets/styles:dist/styles",
+    "watch-http": "es-dev-server --app-index index.html --node-resolve --watch --open",
+    "start": "concurrently --kill-others 'npm:watch-*'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "es-dev-server": "^2.1.0",
+    "sass": "^1.63.6",
+    "typescript": "^5.1.6"
+  }
+}
